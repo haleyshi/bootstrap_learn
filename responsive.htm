@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Classes</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">  
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" style="padding: 40px;">
+	<div class="row visible-on">
+		<div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+			<span class="hidden-xs">在特别小型设备上不可见</span>
+			<span class="visible-xs" style="background-color: #00cc00">在特别小型设备上可见</span>
+		</div>
+
+		<div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+			<span class="hidden-sm">在小型设备上不可见</span>
+			<span class="visible-sm" style="background-color: #00cc00">在小型设备上可见</span>
+		</div>
+
+		<div class="clearfix visible-xs"></div>
+
+		<div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+			<span class="hidden-md">在中型设备上不可见</span>
+			<span class="visible-md" style="background-color: #00cc00">在中型设备上可见</span>
+		</div>
+		<div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+			<span class="hidden-lg">在大型设备上不可见</span>
+			<span class="visible-lg" style="background-color: #00cc00">在大型设备上可见</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>
