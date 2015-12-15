@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Group</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">  
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div style="padding: 50px 100px 10px;">
+	<form role="form">
+		<div class="input-group input-group-lg">
+			<span class="input-group-addon">@</span>
+			<input type="text" class="form-control" placeholder="domain">
+		</div>
+
+		<br>
+
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="0">
+			<span class="input-group-addon">.00</span>
+		</div>
+
+		<br>
+
+		<div class="input-group input-group-sm">
+			<span class="input-group-addon">￥</span>
+			<input type="text" class="form-control" placeholder="0">
+			<span class="input-group-addon">.00</span>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="input-group">
+					<span class="input-group-addon"><input type="checkbox"></span>
+					<input type="text" class="form-control">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="input-group">
+					<span class="input-group-addon"><input type="radio"></span>
+					<input type="text" class="form-control">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="input-group">
+					<span class="input-group-btn"><button type="button" class="btn btn-default">Search</button></span>
+					<input type="text" class="form-control">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="input-group">
+					<input type="text" class="form-control">
+					<span class="input-group-btn"><button type="button" class="btn btn-default">Go!</button></span>
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="input-group">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">选择操作<span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li><a href="#">搜索</a></li>
+							<li><a href="#">翻译</a></li>
+							<li><a href="#">访问</a></li>
+						</ul>
+					</div>
+					<input type="text" class="form-control" placeholder="Keywords or URL">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Keywords or URL">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">选择操作<span class="caret"></span></button>
+						<ul class="dropdown-menu pull-right">
+							<li class="dropdown-header">Keyword</li>
+							<li><a href="#">搜索</a></li>
+							<li><a href="#">翻译</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-header">URL</li>
+							<li><a href="#">访问</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="input-group">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default" tabindex="-1">选择操作</button>
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							<span class="caret"></span>
+							<span class="sr-only">切换操作类型</span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">搜索</a></li>
+							<li><a href="#">翻译</a></li>
+							<li><a href="#">访问</a></li>
+						</ul>
+					</div>
+					<input type="text" class="form-control" placeholder="Keywords or URL">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Keywords or URL">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-default" tabindex="-1">选择操作</button>
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							<span class="caret"></span>
+							<span class="sr-only">切换操作类型</span>
+						</button>
+						<ul class="dropdown-menu pull-right">
+							<li class="dropdown-header">Keyword</li>
+							<li><a href="#">搜索</a></li>
+							<li><a href="#">翻译</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-header">URL</li>
+							<li><a href="#">访问</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+</body>
+</html>
